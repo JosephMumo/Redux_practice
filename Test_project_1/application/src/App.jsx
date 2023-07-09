@@ -16,7 +16,7 @@ const App = () => {
 
             { isLogged && ( <h5>This is some classified infomation!!</h5>)}
             <button onClick={() => dispatch(sign_up())}>
-                {isLogged ? 'Log Out ' : 'Log In'}
+                {isLogged ? 'Log-Out ' : 'Log-In'}
             </button>
         </div>
     )
